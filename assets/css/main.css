@@ -3048,10 +3048,11 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 50em;
-			-ms-flex: 1;
+			-ms-flex: 5;
 		}
 
 			.spotlights > section > .content > .inner {
+
 				-moz-transform: translateX(0) translateY(0);
 				-webkit-transform: translateX(0) translateY(0);
 				-ms-transform: translateX(0) translateY(0);
@@ -3064,11 +3065,22 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(255, 255, 255, 0.192);
 		}
-
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(0, 0, 0, 0);
+		}
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(255, 255, 255, 0.192);
+		}
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0);
+		}
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(255, 255, 255, 0.192);
+		}
+		.spotlights > section:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0);
 		}
 
 		.spotlights > section.inactive > .image:before,
