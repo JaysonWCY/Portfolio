@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Unit 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Home</a>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							Unit 1
+							<h1 class="major">Introduction to Secure Software Development</h1>
+							<h3>Open source tools are available to create UML diagrams, some are listed below. This list is not exhaustive. The benefit of using such tools is that they ensure that the recognised UML components are used to represent the parts of the model correctly.<h3>
+							<h3>Visual Paradigm</h3>
+							<h3>Sequence Diagram</h3>
+							<h3>Umbrello</h3>
+							<h3>Choose an open-source UML tool from the list above.  Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring. Which UML models might you use to present the design of your proposed software, and why are they the most appropriate choice(s)?</h3>
+							<br>
+							<p>In 2021, OWASP determined that Cryptographic failures is to be placed in the top ten weaknesses within websites (CWE - CWE-1344: Weaknesses in OWASP Top Ten, 2021). </p>
+							<p>The normal flow of transfer of secure data, such as signing into an account, is illustrated in the UML sequence diagram bellow.</p>
+							<span class="image left"><img src="images/UML.png" alt="" /></span>
+							<p>In this situation, as the sensitive data is entered into the website, an encryption program scrambles the data that only authorised parties with the decryption method can read it.  This prevents cyber-criminals from stealing such data while during transfer to the server. However, failed cryptography would leave this sensitive data vulnerable for cyber-criminals to take and abuse the data.</p>
+							<p>There are many reasons why cryptography may fail (Schneier, 1998). Weak cryptography systems itself could be the weak point. This would include weak encryption systems such as using random number generators as good random generators are hard to design. The weakness of encryption could also lie within the user as having the system rely on user-generated keys and passwords only allows for so much security as people tend to not use too complex keys to prevent forgetting them. Besides encryption, the system itself could be designed poorly such as not ensuring that plain text is destroyed after encryption (Schneier, 1998).</p>
+							<p>Besides the cartography system itself, weaknesses tend to be in the implementation and usage of cryptography rather than the program itself (Lazar et al., 2014). The usage of cryptography must be properly implemented, tested and monitored.</p>
+							<p>Even in the case of a secure cryptography system, there is a chance that it can still be broken at a certain point, which is why it is important to constantly be improving, testing and monitoring the security of a website.</p>
+							<br>
+							<h3>References</h3>
+							<br>
+							<p>CWE - CWE-1344: Weaknesses in OWASP Top Ten (2021). Available at: https://cwe.mitre.org/data/definitions/1344.html (Accessed: 6 August 2024).</p>
+							<p>Lazar, D. et al. (2014) Why does cryptographic software fail? A case study and open problems.in Proceedings of 5th Asia-Pacific Workshop on Systems, APSYS 2014. Association for Computing Machinery. Available at: https://doi.org/10.1145/2637166.2637237.</p>
+							<p>Schneier, B. (1998) SECURITY PITFALLS IN CRYPTOGRAPHY.</p>
+
+							<h3>Other considerations</h3>
+							<br>
+							<p>Other considerations brought up through my colleagues were about additional measures to prevent the vulnerability of cryptography failure.</p>
+							<p>These methods include implementing industry level encryptions, therefore lowering the cryptography failure ranking to be lower.  This enables more people to effectively use cryptography as it becomes increasingly recognized. However, as cryptographic methods become more widely known and standardized, it could also make it easier for hackers to break these codes. This would have a greater impact since it would affect everyone that uses the same systems.</p>
+							<p>Pairing cryptography with other methods such as validating user inputs and ensuring secure channels such as HTTPS, can effectively improve the safety of data transfer by adding additional layers of protection. </p>
+
+						
+					
+					
+					
+					
+					</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
