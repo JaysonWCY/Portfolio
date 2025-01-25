@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Unit 9</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="title">Home</a>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main" class="wrapper">
+        <div class="inner">
+          Unit 9
+          <h3>Packaging and Testing</h3>
+
+          <h3>
+            You can complete one or more of the following activities for
+            inclusion in your e-portfolio. You can also share your work with
+            your tutor for formative feedback.
+          </h3>
+
+          <h3>Activity 1</h3>
+          <h3>
+            How relevant is the cyclomatic complexity in object-oriented
+            systems? Which alternative metrics do you consider to be more
+            reflective of the complexity of a piece of code, in comparison to
+            the number of independent paths through a program? Support your
+            response using reference to the related academic literature.
+          </h3>
+
+          <h3>Activity 2</h3>
+          <h3>
+            To what extent is cyclomatic complexity relevant when developing
+            object-oriented code?
+          </h3>
+
+          <h3>Activity 3</h3>
+          <h3>
+            What is the cyclomatic complexity of the following piece of code?
+          </h3>
+
+          <pre>
+public static string IntroducePerson(string name, int age)
+{
+    var response = $"Hi! My name is {name} and I'm {age} years old.";
+
+    if (age >= 18)
+        response += " I'm an adult.";
+
+    if (name.Length > 7)
+        response += " I have a long name.";
+
+    return response;
+}
+</pre
+          >
+          <h3>
+            Source: Schultz, C. (2021) Cyclomatic Complexity Defined Clearly,
+            With Examples. LinearB.
+          </h3>
+
+          <h3>Activity 4</h3>
+          <h3>
+            Extend the following program to test accuracy of operations using
+            the assert statement.
+          </h3>
+
+          <pre>
+# Python String Operations
+str1 = 'Hello'
+str2 ='World!'
+
+# using +
+print('str1 + str2 = ', str1 + str2)
+
+# using *
+print('str1 * 3 =', str1 * 3)
+</pre
+          >
+          <h3>Source: Progamiz. (n.d.) Python Strings.</h3>
+            <br>
+            <br>
+            <p>1.</p>
+          <p>
+            Cyclomatic complexity is used to monitor the number of different
+            flows of which a program follows while operating. This is used to
+            measure the independent paths and is considered to portray how
+            complicated or messy a system is.
+          </p>
+
+          <p>
+            In terms of object-oriented programming, which focuses on
+            reusability and making complex systems more modular, it is a useful
+            tool. If there are so many paths that a code can follow, then it may
+            be an indicator that the system is not modelled efficiently.
+          </p>
+
+          <p>
+            The issues come as object-oriented programming tends to be more on a
+            level of a single system path as opposed to the consideration of the
+            system design as a whole. As an example, a system with many paths
+            and features could still have very modular and easily understood
+            code. It also doesn’t consider other aspects such as inheritance and
+            polymorphism.
+          </p>
+
+          <p>
+            Overall, both cyclomatic complexity and object-oriented programming
+            have the same goal of making clear, easy to read, and
+            straightforward code, but both consider different aspects of a
+            system, which does not massively coincide.
+          </p>
+
+          <p>
+            Other metrics can be used to measure the complexity of
+            object-oriented designs better, such as Weighted Methods per Class
+            (WMC) or Coupling Between Object Classes (CBO).
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

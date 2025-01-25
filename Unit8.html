@@ -1,68 +1,132 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Unit 8</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Unit 8</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <a href="index.html" class="title">Home</a>
+    </header>
 
-		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="title">Home</a>
-			</header>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main" class="wrapper">
+        <div class="inner">
+          Unit 8 - 10 Discussion
+          <h3>Discussion Topic: OO Design for IoT</h3>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+          <h3>
+            Making reference to the article by Fortino et al. (2015), consider
+            the strengths and weaknesses of designing a metamodel to support
+            object-oriented design of the IoT. Design a smart model equivalent
+            to that presented in Figure 6 which would instead support operation
+            of a humanoid robot.
+          </h3>
+          <br />
+          <p>
+            Designing a metamodel in the context of object-oriented design is a
+            complementary concept, as having a basic structure that can be used
+            as a foundational architecture while leaving room for alteration.
+            The simplicity allows for a good communication of the design while
+            also providing important context and specifications. The structure
+            also provides a certain degree of flexibility to allow for changes
+            throughout the design cycle.
+          </p>
 
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							Unit 8
-							<h1 class="major">Cryptography and Its Use in Operating Systems</h1>
-							<h3>The (anonymous) TrueCrypt authors have said “Using TrueCrypt is not secure as it may contain unfixed security issues” (TrueCrypt, 2014). Does the cryptanalysis provided above prove or disprove this assumption?</h3>
-							<h3>Would you be prepared to recommend TrueCrypt to a friend as a secure storage environment? What caveats (if any) would you add?</h3>
-							<br>
-							<p>The consideration of TrueCrypt being secure or insecure depends mostly on the lack of constant updates as it has been discontinued in 2014. The longer that encryption exists, the more likely it is to be cracked. Without any updates or maintenance, the risk runs even higher. Encryption cracking technology is also advancing, meaning that encryption technology has to increase with it. Even with the consideration that TrueCrypt contains very strong encryption, as time goes on the value of these encryption is lost. </p>
-							<p>TrueCrypt should not be recommended for any form of secure storage, there simply is better options that are also being maintained and improved currently. </p>
-							<p>Overall, the opinions of my colleague are that TrueCrypt can possibly considered a good encryption system but due to the lack of maintenance, it should not be used or recommended to anyone for secure usage. </p>
-					<h3>Why did you select the algorithm you chose?</h3>
-					<br>
-					<p>The chosen algorithm used was a symmetric cryptographic algorithm. This is due to having manual access to both encryption and decryption points. This ensures that the data transfer is safe, while also being simpler and faster to deploy. </p>
-					<h3>Would it meet the GDPR regulations? Justify your answer.</h3>
-					<br>
-					<p>It would not meet GDPR regulations as there are no documentation of activities and processes which is required. </p>
-					
-					
-						</div>
-					</section>
+          <p>
+            Metamodels can be used to help identify and convey parts of the code
+            which can be reused or restructured in a way that supports
+            object-oriented design more.
+          </p>
 
-			</div>
+          <p>
+            The weakness of metamodels is that it requires the skill and
+            understanding of how to read the diagram as overall the designs tend
+            to be more complicated than other possible models such as Unified
+            Modelling Language (UML).
+          </p>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+          <p>
+            Another consideration is the cost. In a huge scale project that
+            evolves rapidly, maintaining and updating the model would require
+            significant time and effort for each iteration. This could slow down
+            development, overall increasing cost.
+          </p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+          <p>
+            With everything in consideration, depending on the complexity and
+            requirements of the project, metamodels have the potential to be a
+            useful tool that helps throughout the software development cycle as
+            opposed to other models. This is more prevalent in projects with
+            complex and changing requirements. This usage of metamodels,
+            however, should be considered based on the needs of a project, as
+            other types of models can be more efficient or simply less
+            complicated to use.
+          </p>
 
-	</body>
+          <p>Below is an example of a metamodel for a basic humanoid robot.</p>
+
+          <span class="image fit"
+            ><img src="images/Picture3.png" alt=""
+          /></span>
+          <p>
+            Fortino, G. et al. (2016) ‘Towards a Development Methodology for
+            Smart Object-Oriented IoT Systems: A Metamodel Approach’, in
+            Proceedings - 2015 IEEE International Conference on Systems, Man,
+            and Cybernetics, SMC 2015. Institute of Electrical and Electronics
+            Engineers Inc., pp. 1297–1302. Available at:
+            https://doi.org/10.1109/SMC.2015.231.
+          </p>
+          <h3>Reflection</h3>
+          <p>
+            When comparing other peers' metamodel structures towards my own,
+            overall, my design is lacking in information such as the core
+            details as well as basic features. In terms of consensus about the
+            usage of metamodels, everyone agreed that they should be used with
+            consideration in mind, as the flexibility of the models results in
+            more maintenance and complexity in a project. Overall metamodels can
+            be a very useful tool that can be used depending on the situation.
+            Everyone however had highlighted different parts of the pros and
+            cons that they decided to put an emphasis on, such as cost as
+            opposed to complexity.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>&copy; Untitled. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
