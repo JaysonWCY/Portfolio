@@ -29,100 +29,65 @@
       <section id="main" class="wrapper">
         <div class="inner">
           Unit 5
-          <h1 class="major">More on Classes</h1>
-          <h3>
-            Review chapter 18 of the 'Think Python' book to help you understand
-            this week's concepts. To help you better understand this week’s
-            concepts, use card.py to understand the chapter's contents. Review
-            the code by using the guidance in the book. You can discuss your
-            work with your tutor and save your results in your e-portfolio.
-          </h3>
+          <h1 class="major">User Experience</h1>
+          <h3>Discussion Topic: Scanning Exercise and Results</h3>
 
-          <h3>
-            An example of a Python program which uses polymorphism is shown
-            below.
-          </h3>
-
-          <pre>
-class Cat:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def info(self):
-        print(f"I am a cat. My name is {self.name}. I am {self.age} years old.")
-
-    def make_sound(self):
-        print("Meow")
-
-
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def info(self):
-        print(f"I am a dog. My name is {self.name}. I am {self.age} years old.")
-
-    def make_sound(self):
-        print("Bark")
-
-
-cat1 = Cat("Kitty", 2.5)
-dog1 = Dog("Fluffy", 4)
-
-for animal in (cat1, dog1):
-    animal.make_sound()
-    animal.info()
-    animal.make_sound()
-</pre
-          >
-
-          <h3>
-            Write a Python program with polymorphism that is usable within the
-            summative assessment for the humanoid robot.
-          </h3>
-
-          <pre>
-class Robot:
-    def __init__(self, name, model):
-        self.name = name
-        self.model = model
-
-    def action(self):
-        print(f"{self.name} is ready to assist with tasks.")
-
-    def speak(self):
-        print(f"{self.name} says, 'How can I assist you today?'")
-
-class HumanoidRobot(Robot):
-    def __init__(self, name, model, purpose):
-        super().__init__(name, model)
-        self.purpose = purpose
-
-    def action(self):
-        print(f"{self.name} is performing {self.purpose} tasks.")
-
-    def speak(self):
-        print(f"{self.name} says, 'I am a humanoid robot designed to {self.purpose}.'")
-
-# Creating instances
-robot1 = Robot("Robo1", "X100")
-humanoid_robot1 = HumanoidRobot("HumanoidX", "HX200", "assist with daily chores")
-
-# Demonstrating polymorphism
-for robot in (robot1, humanoid_robot1):
-    robot.action()
-    robot.speak()
-</pre
-          >
-          <br />
           <p>
-            The program written is used to identify objects as well as their
-            uses.
+            Human emotions can affect the user experience, a fact which
+            contributes to the complexity of user satisfaction with a product.
+            Further complicating the process is the fact that user emotions on
+            the first use of a product are likely to be different from their
+            emotions once they become more experienced.
           </p>
-          <span><img src="images/Picture1.png" alt="" /></span>
-          <span><img src="images/Picture2.png" alt="" /></span>
+
+          <p>
+            Read Gu et al. (2023) and discuss whether you agree with the authors
+            that their findings can improve the accuracy of subjective
+            evaluation.
+          </p>
+
+          <h3>RESPONSE</h3>
+
+          <p>
+            After reading the article regarding the halo effect on digital
+            interfaces (Gu et al., 2023), I completely agree with the hypothesis
+            and findings as well as how it can improve the accuracy of
+            subjective gradings. The interface of a product is the main
+            component that interacts with the user itself. A well-received
+            interface may trigger positive emotions which then will be carried
+            into the evaluations which in turn could inflate the scores. While
+            over time the strength of this effect can fade, usability and
+            performance were still rated higher, which means that a nice
+            interface could possibly hide usability or performance issues. This
+            is the same effect as having a page freeze while it loads as opposed
+            to having a loading bar. If both are loading for the same time, a
+            loading bar would be perceived as the software doing its job while
+            the page freezing could be mistaken for software failure.
+          </p>
+
+          <p>
+            Overall, the article discusses how a customer might rate a new
+            product higher than its actual value if the interface is nice, but
+            later on will provide a more balanced and functionality-focused
+            review. This can be important when gathering information about the
+            aesthetics of a product as opposed to gathering information about
+            the performance of a product.
+          </p>
+
+          <p>
+            After reading the discussions from my other peers, it seems all are
+            in agreement that the halo effect is an important aspect to be
+            considered in both performance and aesthetics. They all agree that
+            review of the aesthetics should be left for a few days after the
+            initial interaction. The importance of timing has become a highlight
+            in evaluations of aesthetics. The question of how to properly test
+            usability and importance then comes in, as it seems that the halo
+            effect tends to stay longer with these aspects. Maybe the
+            possibility of making a neutral interface to test the performance
+            and usability. These all have to come together for the awareness of
+            the effect that could skew performance and aesthetic reviews.
+          </p>
+
         </div>
       </section>
     </div>
