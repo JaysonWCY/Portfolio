@@ -26,34 +26,37 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							Unit 1
-							<h1 class="major">Introduction to Secure Software Development</h1>
-							<h3>Open source tools are available to create UML diagrams, some are listed below. This list is not exhaustive. The benefit of using such tools is that they ensure that the recognised UML components are used to represent the parts of the model correctly.<h3>
-							<h3>Visual Paradigm</h3>
-							<h3>Sequence Diagram</h3>
-							<h3>Umbrello</h3>
-							<h3>Choose an open-source UML tool from the list above.  Select one of the coding weaknesses which have been identified by OWASP and create a flowchart of the steps which may have led to the weakness occurring. Which UML models might you use to present the design of your proposed software, and why are they the most appropriate choice(s)?</h3>
+							<h1 class="major">Security Standards, Frameworks and Disaster Recovery</h1>
+							<h3>Based on your reading of the case study listed above (Kovaitė and Stankevičienė, 2019), answer the following questions in the discussion forum:</h3>
+							<h3>▪ What do the authors mean by the term ‘Industry 4.0’ - give two examples.</h3>
+							<h3>▪ Give two real-world examples of risks that fit into the authors categories.</h3>
+							<h3>▪ Find another journal article that either supports or contradicts the points made in the cited study.</h3>
 							<br>
-							<p>In 2021, OWASP determined that Cryptographic failures is to be placed in the top ten weaknesses within websites (CWE - CWE-1344: Weaknesses in OWASP Top Ten, 2021). </p>
-							<p>The normal flow of transfer of secure data, such as signing into an account, is illustrated in the UML sequence diagram bellow.</p>
-							<span class="image left"><img src="images/UML.png" alt="" /></span>
-							<p>In this situation, as the sensitive data is entered into the website, an encryption program scrambles the data that only authorised parties with the decryption method can read it.  This prevents cyber-criminals from stealing such data while during transfer to the server. However, failed cryptography would leave this sensitive data vulnerable for cyber-criminals to take and abuse the data.</p>
-							<p>There are many reasons why cryptography may fail (Schneier, 1998). Weak cryptography systems itself could be the weak point. This would include weak encryption systems such as using random number generators as good random generators are hard to design. The weakness of encryption could also lie within the user as having the system rely on user-generated keys and passwords only allows for so much security as people tend to not use too complex keys to prevent forgetting them. Besides encryption, the system itself could be designed poorly such as not ensuring that plain text is destroyed after encryption (Schneier, 1998).</p>
-							<p>Besides the cartography system itself, weaknesses tend to be in the implementation and usage of cryptography rather than the program itself (Lazar et al., 2014). The usage of cryptography must be properly implemented, tested and monitored.</p>
-							<p>Even in the case of a secure cryptography system, there is a chance that it can still be broken at a certain point, which is why it is important to constantly be improving, testing and monitoring the security of a website.</p>
+
+							<p>In the context of the case study, Industry 4.0 is the process of digitalisation that manufacturing and industrial enterprises go through by the integration of advancing technology. It is compared to industrial revolution and is regarding the focus on autonomous systems piloted by machine learning.</p>
+							<p>In the case study, some examples were the usage of AI to reduce the requirement of complex human thinking as well as robotics to reduce the usage of physical human labour.</p>
+
+							<p>In terms of data security risk, on 12 May 2017, WannaCry ransomware was used to attack computers using Microsoft Windows operating systems, which held important data, to hold such data for ransom. This spread was only possible due to how the systems were able to infect each other.</p>
+
+							<p>For financial risk, General Electric (GE) had placed a huge sum of money into their new platform-as-a-service, Predix, which operates regarding IoT to connect devices and provide analytics. However, they aimed too big and wanted to create a lot of their own solutions, which included creating their own data center, among other modules. This caused them to run out of money and the whole project to fail.</p>
+
+							<p>An article by Budagov and Sukhova (2020) supports the points made by Kovaitė and Stankevičienė by giving a more in-depth analysis about GE’s Predix platform failure.</p>
 							<br>
+
 							<h3>References</h3>
 							<br>
-							<p>CWE - CWE-1344: Weaknesses in OWASP Top Ten (2021). Available at: https://cwe.mitre.org/data/definitions/1344.html (Accessed: 6 August 2024).</p>
-							<p>Lazar, D. et al. (2014) Why does cryptographic software fail? A case study and open problems.in Proceedings of 5th Asia-Pacific Workshop on Systems, APSYS 2014. Association for Computing Machinery. Available at: https://doi.org/10.1145/2637166.2637237.</p>
-							<p>Schneier, B. (1998) SECURITY PITFALLS IN CRYPTOGRAPHY.</p>
-
-							<h3>Other considerations</h3>
+							<p>Budagov, A. S., & Sukhova, N. A. (2020). Problems Of Effective Business Digital Transformation Management. 428–434. <a href="https://doi.org/10.15405/epsbs.2020.10.03.48" target="_blank">https://doi.org/10.15405/epsbs.2020.10.03.48</a></p>
 							<br>
-							<p>Other considerations brought up through my colleagues were about additional measures to prevent the vulnerability of cryptography failure.</p>
-							<p>These methods include implementing industry level encryptions, therefore lowering the cryptography failure ranking to be lower.  This enables more people to effectively use cryptography as it becomes increasingly recognized. However, as cryptographic methods become more widely known and standardized, it could also make it easier for hackers to break these codes. This would have a greater impact since it would affect everyone that uses the same systems.</p>
-							<p>Pairing cryptography with other methods such as validating user inputs and ensuring secure channels such as HTTPS, can effectively improve the safety of data transfer by adding additional layers of protection. </p>
 
-						
+							<h3>Peer Summary</h3>
+							<br>
+							<p>My peers all discussed many different types of risks as well as different cases of where the risks were too high, causing the failure of a project. These included case studies of:</p>
+							<ul>
+							<li>WannaCry ransomware, which I also had included in my response.</li>
+							<li>Woolworths strike, which showed how the employees rejected the new AI monitoring system.</li>
+							<li>The Equifax breach, resulting in exposure of personal data.</li>
+							<li>The attempt of digitisation by the NHS, overall lowering efficiency due to inadequate skills and training for their staff.</li>
+							</ul>
 					
 					
 					
